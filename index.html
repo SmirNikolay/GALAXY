@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221125150806">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap&_v=20221125150806" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js?_v=20221125150806"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js?_v=20221125150806"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221125150806"/>
+    <title>GALAXY</title>
+</head>
+<body>
+    <script>
+        $( function() {
+            $('#accordion').accordion({
+                heightStyle: 'content',
+                header: '.accordion__header',
+                collapsible: true,
+                active: true,
+            });
+        } );
+    </script>
+    <wrapper class="wrapper">
+        <main>
+            <section class="hero">
+                <header class="header">
+    <div class="header__nav">
+        <div class="container container__nav">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link">GALAXY</a>
+            </div>
+            <ul class="header__list">
+                <li class="header__item hover__item-header"><a href="index.html">Home</a></li>
+                <li class="header__item hover__item-header"><a href="tasks.html">Tasks</a></li>
+                <li class="header__item hover__item-header"><a href="vip.html">VIP</a></li>
+                <li class="header__item hover__item-header"><a href="profile.html">Profile</a></li>
+            </ul>
+            <a href="#popup" class="header__link popup__link hover__btn">Войти</a>
+        </div>
+    </div>
+</header>
+                <div class="container container__hero">
+                    <div class="hero__nav"></div>
+                    <div class="hero__text">
+                        <h2 class="hero__subtitle">MISSION</h1>
+                        <h1 class="hero__title">MIDAS</h1>
+                        <p class="hero__descr">Создайте свой собственный пассивный доход прямо сейчас. <br>Отправляйтесь в&nbsp;захватывающие путешествие <br>по&nbsp;галактике, выполняйте задания и&nbsp;спасите планеты</p>
+                        <a href="popup" class="hero__hero-link popup__link hover__btn">Начать миссию</a>
+                    </div>
+                    <div class="hero__info">
+                        <ul class="hero__info-list">
+                            <li class="hero__info-item">
+                                <p>2 000+</p>
+                                <span>Активных пользователей</span>
+                            </li>
+                            <li class="hero__info-item">
+                                <p>до 459 000 $</p>
+                                <span>Большие награды</span>
+                            </li>
+                            <li class="hero__info-item">
+                                <p>28.09.2022</p>
+                                <span>Дата запуска</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="new">
+                <div class="container new__container">
+                    <div class="new__content">
+                        <h2 class="new__title">Новое</h2>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"></div>
+                              <div class="swiper-slide"></div>
+                              <div class="swiper-slide"></div>
+                            </div>
+                        </div>
+                        <div class="new__adv">
+                            <h3 class="new__adv-title">Преимущества</h3>
+                            <ul class="new__adv-list">
+                                <li class="new__adv-item">
+                                    <div class="new__adv-item-img">
+                                        <img src="img/content_img/advanteg__wallet.png" alt="">
+                                    </div>
+                                    <h3 class="new__adv-item-title">Выплаты в любой момент</h3>
+                                    <p class="new__adv-item-descr">Вы можете получить награду в любой момент</p>
+                                </li>
+                                <li class="new__adv-item">
+                                    <div class="new__adv-item-img">
+                                        <img src="img/content_img/advanteg__mes.png" alt="">
+                                    </div>
+                                    <h3 class="new__adv-item-title">Служба заботы</h3>
+                                    <p class="new__adv-item-descr">По всем вопросам вы можете обратиться в службу поддержки</p>
+                                </li>
+                                <li class="new__adv-item">
+                                    <div class="new__adv-item-img">
+                                        <img src="img/content_img/advanteg__tasks.png" alt="">
+                                    </div>
+                                    <h3 class="new__adv-item-title">Простые задания</h3>
+                                    <p class="new__adv-item-descr">Выполнение заданий занимает не более 30 минут в день</p>
+                                </li>
+                                <li class="new__adv-item">
+                                    <div class="new__adv-item-img">
+                                        <img src="img/content_img/advanteg__system.png" alt="">
+                                    </div>
+                                    <h3 class="new__adv-item-title">Реферальная система</h3>
+                                    <p class="new__adv-item-descr">Приглашайте друзей чтобы получать больший доход</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stage">
+                <div class="container">
+                    <div class="stage__content">
+                        <h2 class="stage__title">Этапы</h2>
+                        <ul class="stage__list">
+                            <li class="stage__item">
+                                <div class="stage__item-point"></div>
+                                <h3 class="stage__item-title">Регистрация</h3>
+                                <p class="stage__item-descr">Для начала путешествия необходимо пройти простую регистрацию</p>
+                                <a href="popup" class="stage__item-link popup__link hover__btn">Зарегистрироваться</a>
+                            </li>
+                            <li class="stage__item">
+                                <div class="stage__item-point"></div>
+                                <h3 class="stage__item-title">Выбор планеты</h3>
+                                <p class="stage__item-descr">Выберите планету с подходящей для вас наградой за выполнения заданий</p>
+                                <div class="stage__item-images">
+                                    <div class="stage__item-img">
+                                        <img src="img/content_img/planet_1.png" alt="">
+                                    </div>
+                                    <div class="stage__item-img">
+                                        <img src="img/content_img/planet_2.png" alt="">
+                                    </div>
+                                    <div class="stage__item-img">
+                                        <img src="img/content_img/planet_3.png" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="stage__item">
+                                <div class="stage__item-point"></div>
+                                <h3 class="stage__item-title">Создание команды</h3>
+                                <p class="stage__item-descr">Соберите верную команду и получайте награды когда её члены выполняют задания</p>
+                                <div class="stage__item-image">
+                                    <img src="img/content_img/team.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="stage__img">
+                            <img src="img/content_img/spaceship.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="planet">
+                <div class="container">
+                    <div class="planet__content">
+                        <h2 class="planet__title">Доступные планеты</h2>
+                        <ul class="planet__list">
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 1</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_1.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">EDEM 6</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 2</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_2.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">FROST 99</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 3</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_3.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">STEAM 2</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 4</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_4.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">TEMPLE 8</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                        </ul>
+                        <ul id="more" class="planet__list _hidden">
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 5</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_5.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">CASH 8</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 6</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_6.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">EDEM 12</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 7</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_7.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">COVID 12</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                            <li class="planet__item">
+                                <div class="planet__item-num"><span>VIP 8</span></div>
+                                <div class="planet__item-img">
+                                    <img src="img/content_img/vip_planet_8.png" alt="">
+                                </div>
+                                <h3 class="planet__item-title">B-1984</h3>
+                                <div class="planet__item-price">
+                                    <div class="planet__item-price-daily">
+                                        <p class="planet__item-price-daily-num">$4</p>
+                                        <span>Daily</span>
+                                    </div>
+                                    <div class="planet__item-price-monthly">
+                                        <p class="planet__item-price-monthly-num">$120</p>
+                                        <span>Monthly</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="planet__item-price-link">Get this — $1 500</a>
+                            </li>
+                        </ul>
+                        <button class="planet__btn">Смотреть все</button>
+                    </div>
+                </div>
+            </section>
+            <section class="faq">
+                <div class="container">
+                    <div class="faq__content">
+                        <h2 class="faq__title">Ответы на вопросы</h2>
+                        <div class="faq__accordion accordion__faq" id="accordion">
+                            <div class="accordion__block">
+                                <div class="accordion__header">
+                                    <h3 class="accordion__title">Вопрос 1</h3>
+                                    <div class="accordion__btn">
+                                        <img src="./img/icons/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="accordion__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae officia illo voluptates corrupti unde itaque, amet cupiditate, alias suscipit, molestias porro fugit optio autem sed saepe tempore architecto obcaecati dolorum.
+                                </div>
+                            </div>
+                            <div class="accordion__block">
+                                <div class="accordion__header">
+                                    <h3 class="accordion__title">Вопрос 2</h3>
+                                    <div class="accordion__btn">
+                                        <img src="./img/icons/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="accordion__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae officia illo voluptates corrupti unde itaque, amet cupiditate, alias suscipit, molestias porro fugit optio autem sed saepe tempore architecto obcaecati dolorum.
+                                </div>
+                            </div>
+                            <div class="accordion__block">
+                                <div class="accordion__header">
+                                    <h3 class="accordion__title">Вопрос 3</h3>
+                                    <div class="accordion__btn">
+                                        <img src="./img/icons/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="accordion__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae officia illo voluptates corrupti unde itaque, amet cupiditate, alias suscipit, molestias porro fugit optio autem sed saepe tempore architecto obcaecati dolorum.
+                                </div>
+                            </div>
+                            <div class="accordion__block">
+                                <div class="accordion__header">
+                                    <h3 class="accordion__title">Вопрос 4</h3>
+                                    <div class="accordion__btn">
+                                        <img src="./img/icons/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="accordion__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae officia illo voluptates corrupti unde itaque, amet cupiditate, alias suscipit, molestias porro fugit optio autem sed saepe tempore architecto obcaecati dolorum.
+                                </div>
+                            </div>
+                            <div class="accordion__block">
+                                <div class="accordion__header">
+                                    <h3 class="accordion__title">Вопрос 5</h3>
+                                    <div class="accordion__btn">
+                                        <img src="./img/icons/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="accordion__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae officia illo voluptates corrupti unde itaque, amet cupiditate, alias suscipit, molestias porro fugit optio autem sed saepe tempore architecto obcaecati dolorum.
+                                </div>
+                            </div>
+                            <div class="accordion__block">
+                                <div class="accordion__header">
+                                    <h3 class="accordion__title">Вопрос 6</h3>
+                                    <div class="accordion__btn">
+                                        <img src="./img/icons/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="accordion__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae officia illo voluptates corrupti unde itaque, amet cupiditate, alias suscipit, molestias porro fugit optio autem sed saepe tempore architecto obcaecati dolorum.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="system">
+                <div class="container">
+                    <div class="system__content">
+                        <h2 class="system__title">Реферальная система</h2>
+                        <ul class="system__list">
+                            <li class="system__item item-me">
+                                <div class="system__step">
+                                    <p>ВЫ</p>
+                                    <span></span>
+                                </div>
+                            </li>
+                            <li class="system__item step-item-1">
+                                <div class="system__item-images">
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_1.png" alt="">
+                                    </div>
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_2.png" alt="">
+                                    </div>
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="system__step">
+                                    <p>1 STEP</p>
+                                    <span></span>
+                                </div>
+                                <div class="system__item-proccents">10%</div>
+                            </li>
+                            <li class="system__item step-item-2">
+                                <div class="system__item-images">
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_1.png" alt="">
+                                    </div>
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_2.png" alt="">
+                                    </div>
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="system__step">
+                                    <p>2 STEP</p>
+                                    <span></span>
+                                </div>
+                                <div class="system__item-proccents step_2">5%</div>
+                            </li>
+                            <li class="system__item step-item-3">
+                                <div class="system__item-images">
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_1.png" alt="">
+                                    </div>
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_2.png" alt="">
+                                    </div>
+                                    <div class="system__item-img">
+                                        <img src="img/content_img/planet_3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="system__step step_3">
+                                    <p>3 STEP</p>
+                                    <span></span>
+                                </div>
+                                <div class="system__item-proccents step-proccents-3">3%</div>
+                            </li>
+                        </ul>
+                        <p class="system__descr">Верная команда - залог успешной мисии. Приглашайте друзей и получайте еще больше наград когда они и их друзья выполняют задания или покупают планеты</p>
+                    </div>
+                </div>
+            </section>
+            <section class="review">
+                <div class="container">
+                    <div class="review__content">
+                        <h2 class="review__title">Отзывы</h2>
+                        <div class="slidershow-review__action">
+                            <button class="btn-prev slideshow-review__btn-prev">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_0_470)">
+                                    <path d="M21.5627 17.3334L5.33335 17.3334L5.33335 14.6667L21.5627 14.6667L14.4107 7.51473L16.296 5.62939L26.6667 16.0001L16.296 26.3707L14.4107 24.4854L21.5627 17.3334Z" fill="#9390AC"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_0_470">
+                                    <rect width="32" height="32" fill="white" transform="translate(32) rotate(90)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                            <button class="btn-next slideshow-review__btn-next">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_0_470)">
+                                    <path d="M21.5627 17.3334L5.33335 17.3334L5.33335 14.6667L21.5627 14.6667L14.4107 7.51473L16.296 5.62939L26.6667 16.0001L16.296 26.3707L14.4107 24.4854L21.5627 17.3334Z" fill="#9390AC"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_0_470">
+                                    <rect width="32" height="32" fill="white" transform="translate(32) rotate(90)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="review__slideshow slideshow-review">
+                            <div class="slideshow__container slideshow-review__container">
+                                <div class="slideshow__track slideshow-review__track">
+                                    <div class="slideshow__item slideshow-review__item">
+                                        <div class="slideshow-review__item-content">
+                                            <div class="slideshow-review__item-img">
+                                                <img src="img/review/thumb-up-front-clay.jpg" alt="">
+                                            </div>
+                                            <p class="slideshow-review__item-name">Антон</p>
+                                            <p class="slideshow-review__item-comment">Мне все понравилось</p>
+                                        </div>
+                                    </div>
+                                    <div class="slideshow__item slideshow-review__item">
+                                        <div class="slideshow-review__item-content">
+                                            <div class="slideshow-review__item-img">
+                                                <img src="img/review/thumb-up-front-clay.jpg" alt="">
+                                            </div>
+                                            <p class="slideshow-review__item-name">Антон</p>
+                                            <p class="slideshow-review__item-comment">Мне все понравилось</p>
+                                        </div>
+                                    </div>
+                                    <div class="slideshow__item slideshow-review__item">
+                                        <div class="slideshow-review__item-content">
+                                            <div class="slideshow-review__item-img">
+                                                <img src="img/review/thumb-up-front-clay.jpg" alt="">
+                                            </div>
+                                            <p class="slideshow-review__item-name">Антон</p>
+                                            <p class="slideshow-review__item-comment">Мне все понравилось</p>
+                                        </div>
+                                    </div>
+                                    <div class="slideshow__item slideshow-review__item">
+                                        <div class="slideshow-review__item-content">
+                                            <div class="slideshow-review__item-img">
+                                                <img src="img/review/thumb-up-front-clay.jpg" alt="">
+                                            </div>
+                                            <p class="slideshow-review__item-name">Антон</p>
+                                            <p class="slideshow-review__item-comment">Мне все понравилось</p>
+                                        </div>
+                                    </div>
+                                    <div class="slideshow__item slideshow-review__item">
+                                        <div class="slideshow-review__item-content">
+                                            <div class="slideshow-review__item-img">
+                                                <img src="img/review/thumb-up-front-clay.jpg" alt="">
+                                            </div>
+                                            <p class="slideshow-review__item-name">Антон</p>
+                                            <p class="slideshow-review__item-comment">Мне все понравилось</p>
+                                        </div>
+                                    </div>
+                                    <div class="slideshow__item slideshow-review__item">
+                                        <div class="slideshow-review__item-content">
+                                            <div class="slideshow-review__item-img">
+                                                <img src="img/review/thumb-up-front-clay.jpg" alt="">
+                                            </div>
+                                            <p class="slideshow-review__item-name">Антон</p>
+                                            <p class="slideshow-review__item-comment">Мне все понравилось</p>
+                                        </div>
+                                    </div>
+                                    <div class="slideshow__item slideshow-review__item">
+                                        <div class="slideshow-review__item-content">
+                                            <div class="slideshow-review__item-img">
+                                                <img src="img/review/thumb-up-front-clay.jpg" alt="">
+                                            </div>
+                                            <p class="slideshow-review__item-name">Антон</p>
+                                            <p class="slideshow-review__item-comment">Мне все понравилось</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <div id="popup" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <div class="popup__title">Вход</div>
+            <form id="form" action="#" class="popup__form ">
+                <label for="tel" class="label__input">
+                    <span>Телефон</span>
+                    <input type="text" name="phone" id="phone" class="popup__input tel _req" autocomplete="off">
+                </label>
+                <label for="pass" class="label__input">
+                    <span>Пароль</span>
+                    <input id="pass" type="password" name="password" class="popup__input _req" autocomplete="off">
+                    <input id="eye"type="checkbox" class="password-checkbox">
+                    <label for="checkbox__pass" class="checkbox__pass"></label>
+                </label>
+                <a href="#" class="popup__form-link">Забыли пароль?</a>
+                <button class="popup__btn" type="submit">Войти</button>
+                <p class="popup__form-link-text">Еще нет аккаунта?<a href="#popup_2" class="popup__form-link popup__link">Регистрация</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+        <div id="popup_2" class="popup popup_2">
+    <div class="popup__body">
+        <div class="popup__content popup__content_2">
+            <div class="popup__title">Регистрация</div>
+            <form id="form_2" action="#" class="popup__form">
+                <label for="tel" class="label__input">
+                    <span>Email</span>
+                    <input type="email" name="phone" id="email" class="popup__input email _req_registr" autocomplete="off">
+                </label>
+                <label for="pass" class="label__input">
+                    <span>Введите пароль</span>
+                    <input id="pass_1" type="password" name="password" class="popup__input _req_registr" autocomplete="off">
+                    <input id="eye_1"type="checkbox" class="password-checkbox">
+                    <label for="checkbox__pass" class="checkbox__pass"></label>
+                </label>
+                <label for="pass" class="label__input">
+                    <span>Подтверждение пароля</span>
+                    <input id="pass_2" type="password" name="password" class="popup__input _req_registr" autocomplete="off">
+                    <input id="eye_2"type="checkbox" class="password-checkbox">
+                    <label for="checkbox__pass" class="checkbox__pass"></label>
+                </label>
+                <a href="#" class="popup__form-link">Забыли пароль?</a>
+                <button class="popup__btn" type="submit">Зарегистрироваться</button>
+                <p class="popup__form-link-text"><span>Уже есть аккаунт?</span><a href="#popup" class="popup__form-link popup__link">Войти</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+        <footer class="footer">
+   <div class="container">
+    <div class="footer__content">
+        <div class="footer__logo">GALAXY</div>
+        <div class="footer__social">
+            <a href="" class="footer__social-link">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 0.666748C6.63596 0.666748 0.666626 6.63608 0.666626 14.0001C0.666626 20.6547 5.54262 26.1707 11.9173 27.1721V17.8534H8.53063V14.0001H11.9173V11.0627C11.9173 7.72141 13.9066 5.87608 16.9533 5.87608C18.412 5.87608 19.9373 6.13608 19.9373 6.13608V9.41608H18.2573C16.6 9.41608 16.084 10.4441 16.084 11.4987V14.0001H19.7813L19.1906 17.8534H16.084V27.1721C22.4573 26.1721 27.3333 20.6534 27.3333 14.0001C27.3333 6.63608 21.364 0.666748 14 0.666748Z" fill="#CFDEFF"/>
+                    </svg>
+            </a>
+            <a href="" class="footer__social-link">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 0.666748C6.63596 0.666748 0.666626 6.63608 0.666626 14.0001C0.666626 20.6547 5.54262 26.1707 11.9173 27.1721V17.8534H8.53063V14.0001H11.9173V11.0627C11.9173 7.72141 13.9066 5.87608 16.9533 5.87608C18.412 5.87608 19.9373 6.13608 19.9373 6.13608V9.41608H18.2573C16.6 9.41608 16.084 10.4441 16.084 11.4987V14.0001H19.7813L19.1906 17.8534H16.084V27.1721C22.4573 26.1721 27.3333 20.6534 27.3333 14.0001C27.3333 6.63608 21.364 0.666748 14 0.666748Z" fill="#CFDEFF"/>
+                    </svg>
+            </a>
+            <a href="" class="footer__social-link">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 0.666748C6.63596 0.666748 0.666626 6.63608 0.666626 14.0001C0.666626 20.6547 5.54262 26.1707 11.9173 27.1721V17.8534H8.53063V14.0001H11.9173V11.0627C11.9173 7.72141 13.9066 5.87608 16.9533 5.87608C18.412 5.87608 19.9373 6.13608 19.9373 6.13608V9.41608H18.2573C16.6 9.41608 16.084 10.4441 16.084 11.4987V14.0001H19.7813L19.1906 17.8534H16.084V27.1721C22.4573 26.1721 27.3333 20.6534 27.3333 14.0001C27.3333 6.63608 21.364 0.666748 14 0.666748Z" fill="#CFDEFF"/>
+                    </svg>
+            </a>
+        </div>
+    </div>
+   </div> 
+</footer>
+    </wrapper>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221125150806"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+        const swiper = new Swiper('.swiper', {
+        loop: false,
+        effect: 'creative',
+        creativeEffect: {
+            prev: {
+            translate: ['-115%', 0, 0],
+            },
+            next: {
+            translate: ['115%', 0, '-150px'],
+            },
+        },
+        });
+    </script>
+    <script src="js/app.min.js?_v=20221125150806"></script>
+</body>
+</html>
